@@ -7,3 +7,12 @@
 :root {
   font-size: 10px;
 }
+
+body {
+  background-color: #c2e9fb;
+  font-size: 1.6rem;
+
+  display: grid;
+  place-items: center;
+  height: 200vh;
+}
