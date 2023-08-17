@@ -53,3 +53,21 @@ main {
 
   text-align: center;
 }
+
+/* screen1 */
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+}
+
+h1,
+p {
+  color: #34355b;
+}
+
+p {
+  font-size: 1.6rem;
+  opacity: 0.8rem;
+  margin-top: 1.6rem;
+}
