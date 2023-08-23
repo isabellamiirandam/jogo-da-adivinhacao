@@ -11,9 +11,9 @@ function handleclick(event) {
     document.querySelector(".screen1").classList.add('hide')
     document.querySelector(".sreen2").classList.remove('hide')
 
-    document
-      .querySelector('.screen2 h2')
-      .innerText = `Você acertou em ${xAttemps} tentativas`
+    document.querySelector(
+      '.screen2 h2'
+    ).innerText = `Você acertou em ${xAttemps} tentativas`
 
   }
 
