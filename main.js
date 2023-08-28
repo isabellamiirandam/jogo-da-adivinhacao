@@ -2,7 +2,7 @@ const randomNumber = Math.round(Math.random() * 10)
 
 let xAttemps = 1
 
-function handleclick(event) {
+function handleClick(event) {
   event.preventDefault()
 
   const inputNumber = document.querySelector("#inputNumber")
