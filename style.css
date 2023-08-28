@@ -8,13 +8,16 @@
   font-size: 10px;
 }
 
+/* Outra forma de alinhar a caixa ao meio é:
+"margin: o auto" no main*/
+
 body {
   background-color: #c2e9fb;
   font-size: 1.6rem;
 
   display: grid;
   place-items: center;
-  height: 200vh;
+  height: 100vh;
 }
 
 body,
