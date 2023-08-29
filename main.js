@@ -22,6 +22,7 @@ function handleTryClick(event) {
 
   }
 
+  inputNumber.value = ""
   xAttemps++
 
 
