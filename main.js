@@ -1,3 +1,6 @@
+/*A função Math.round() retorna o valor de um número arredondado para o inteiro mais proximo.*/
+/*A função Math.random() retorna um número pseudo-aleatório*/
+
 const randomNumber = Math.round(Math.random() * 10)
 
 let xAttemps = 1
