@@ -5,12 +5,17 @@ const screen1 = document.querySelector(".screen1")
 const screen2 = document.querySelector(".screen2")
 /*A função Math.round() retorna o valor de um número arredondado para o inteiro mais proximo.
 A função Math.random() retorna um número pseudo-aleatório*/
-const randomNumber = Math.round(Math.random() * 10)
+let randomNumber = Math.round(Math.random() * 10)
 let xAttemps = 1
 
 // Eventos
 btnTry.addEventListener('click', handleTryClick)
 btnReset.addEventListener('click', handleResetClick)
+document.addEventListener('keydown', function (e) {
+  if (e.key == 'Enter' && screen1.classList.contains('hide')) {
+    handleResetClick
+  }
+})
 
 //Funções callback
 function handleTryClick(event) {
@@ -35,6 +40,7 @@ function handleTryClick(event) {
 function handleResetClick() {
   toggleScreen()
   xAttemps = 1
+  randomNumber = Math.round(Math.random() * 10)
 }
 
 function toggleScreen() {
