@@ -5,7 +5,8 @@ const randomNumber = Math.round(Math.random() * 10)
 
 let xAttemps = 1
 
-function handleClick(event) {
+function handleTryClick(event) {
+  /* não faça o padrão do evento (não enviar o formulário*/)
   event.preventDefault()
 
   const inputNumber = document.querySelector("#inputNumber")
@@ -24,3 +25,12 @@ function handleClick(event) {
 
 
 }
+
+// Eventos
+
+const btnTry = document.querySelector("#btnTry")
+const btnReset = document.querySelector("#btnReset")
+
+// Registrando os eventos 
+// addEventListener ('nome do evento', 'nome da função que será reagida')
+btnTry.addEventListener('click', handleTryClick)
