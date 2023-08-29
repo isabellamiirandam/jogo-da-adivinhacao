@@ -8,16 +8,16 @@ function handleClick(event) {
   const inputNumber = document.querySelector("#inputNumber")
 
   if (Number(inputNumber.value) == randomNumber) {
-    document.querySelector(".screen1").classList.add('hide')
-    document.querySelector(".sreen2").classList.remove('hide')
+    document.querySelector(".screen1").classList.add("hide")
+    document.querySelector(".screen2").classList.remove("hide")
 
-    document.querySelector(
-      '.screen2 h2'
-    ).innerText = `Você acertou em ${xAttemps} tentativas`
+    document
+      .querySelector(".screen2 h2")
+      .innerText = `Você acertou em ${xAttemps} tentativas`
 
   }
 
   xAttemps++
 
-  console.log(xAttemps)
+
 }
