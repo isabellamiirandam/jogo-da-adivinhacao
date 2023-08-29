@@ -6,7 +6,7 @@ const randomNumber = Math.round(Math.random() * 10)
 let xAttemps = 1
 
 function handleTryClick(event) {
-  /* não faça o padrão do evento (não enviar o formulário*/)
+  /* não faça o padrão do evento (não enviar o formulário)*/
   event.preventDefault()
 
   const inputNumber = document.querySelector("#inputNumber")
